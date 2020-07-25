@@ -1,0 +1,66 @@
+header{
+    background-color: #ffffff;
+    background-image: url("sport.jpg");
+    background-repeat: no-repeat;
+    padding: 20px;
+    float: none;
+    background-size: 100%;
+}
+body{
+    margin: 5px;
+    padding: 10px;
+}
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav{
+    margin-left: 25%;
+    margin-right: 5%;
+}
+nav a{
+  display: inline-block;     
+  color: #000000;
+  background-color: #ffffff;
+  opacity: 0.5; 
+  width: 15%;
+  height: 40px;
+  margin: 10px 10px 0px 10px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.active{
+    background-color: #ffffff;
+    opacity: 1;
+    color: #051094;
+}
+a:hover{
+    color: #dc143c;
+}
+img{
+    width: 200px;
+    display: block;
+    margin: 30px 20px;
+    border: 2px solid #000000;
+    
+}
+.left{
+    background: #F7CAC9;
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+.right{
+    margin-left: 0px;
+    overflow: auto;
+    display: block;
+}
